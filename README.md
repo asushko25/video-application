@@ -25,7 +25,7 @@ A mobile app built with React Native for watching educational programming videos
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/video-learning-app.git
+git clone https://github.com/asushko25/video-application.git
 cd video-learning-app
 npm install
 npx expo start
