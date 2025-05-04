@@ -12,7 +12,7 @@ import SearchIcon from "../../assets/icons/search.svg";
 import SettingsIcon from "../../assets/icons/settings-icon.svg";
 import Footer from "../../components/Footer/Footer";
 
-const API_KEY = "AIzaSyDXI7OwF8WlJ2tIOy212-E2S5t89tK32Is";
+const API_KEY = process.env.EXPO_PUBLIC_YOUTUBE_API_KEY;
 const CATEGORIES = ["React Native", "React", "Typescript", "Javascript"];
 
 export default function MainScreen({ navigation }: any) {

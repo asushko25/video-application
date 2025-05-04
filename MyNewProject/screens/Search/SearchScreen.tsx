@@ -7,7 +7,7 @@ import Search from "../../components/Search/Search";
 import { FilterOptions } from "../../types/FilterOptions";
 import FilterModal from "../../components/FilterModal/FilterModal";
 
-const API_KEY = "AIzaSyDXI7OwF8WlJ2tIOy212-E2S5t89tK32Is";
+const API_KEY = process.env.EXPO_PUBLIC_YOUTUBE_API_KEY;
 
 export default function SearchScreen({ navigation }: any) {
   const route =
